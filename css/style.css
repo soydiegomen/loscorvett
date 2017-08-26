@@ -42,7 +42,7 @@ header{
 	border-color: #FF3366;
 }
 .chai-dark-color{
-	background-color: #242424;
+	background-color: #000;
 }
 
 .coco-color a{
@@ -59,6 +59,7 @@ a.coco-color:hover, input.coco-color:hover{
 .intro-header{ 
 	background-size: cover;
 	background-color: #242424;
+	background: url(../img/home/los-corvett-home.jpg) repeat center top;	
 	min-height: 500px;
 	color: #fff;
 	padding: 50px;
@@ -474,4 +475,18 @@ footer a{
 }
 .show-footer{
 	display: block;
+}
+/*Home los corvett*/
+.first-section{
+	background-color: #000;
+	color: #FFF;
+}
+.second-section{
+	background-color: #FFF;
+	color: #000;
+}
+.special-section{
+	background-size: cover;
+	background: url(../img/home/los-corvett-home.jpg) repeat center top;	
+	color: #FFF;
 }
