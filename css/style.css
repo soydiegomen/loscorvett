@@ -96,8 +96,8 @@ a.coco-color:hover, input.coco-color:hover{
 }
 .home-section{
 	/*padding-top: 48px;*/
-	padding-top: 28px;
-	padding-bottom: 48px;
+	padding-top: 60px;
+	padding-bottom: 90px;
 	text-align: center;
 }
 .home-section h2{
@@ -530,4 +530,37 @@ footer a{
 }
 .social-wrapper li:last-child{
 	margin-right: 0;
+}
+/* Miembro banda*/
+.miembro-banda{
+	margin-bottom: 40px;
+}
+/*Gallery*/
+.gallery-item{
+	width: 25%;
+	height: auto;
+	margin: 0;
+    float: left;
+}
+/* style for crop image */
+.cropped-image {
+  position: relative;
+  width: auto;
+  overflow: hidden;
+  height: 200px;
+}
+
+.cropped-image img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.cropped-image img.portrait {
+  width: 100%;
+  height: auto;
 }
