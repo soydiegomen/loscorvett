@@ -16,18 +16,17 @@ header{
 	color: #fff;	
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover{
-	color: #fff;
+	color: #158B93;
 }
 .navbar{
 	margin-bottom: 0;
 	border-radius: 0;
 	border: 0;
 }
-.navbar .chai-brand-logo{
-	
-}
 .chai-brand-logo img{
 	margin-left: 20px;
+	height: 50px; 
+	width: auto;
 }
 .navbar-nav>li>a{
 	line-height: 40px;	
@@ -42,9 +41,11 @@ header{
 	border-color: #FF3366;
 }
 .chai-dark-color{
-	background-color: #000;
+	background-color: rgba(0,0,0,.6);
 }
-
+.footer-color{
+	background-color: #000;	
+}
 .coco-color a{
 	color: #fff;
 }
