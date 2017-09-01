@@ -547,6 +547,9 @@ footer a{
     float: left;
     background-color: #000;
 }
+.photo-item{
+	padding: 0;
+}
 /* style for crop image */
 .cropped-image {
   position: relative;
