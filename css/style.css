@@ -7,6 +7,15 @@ header{
 .hide-item{
 	display: none;
 }
+.covertt-green{
+	color: #158B93;
+}
+a.corvett-link{
+	color: #158B93 !important;
+}
+a.corvett-link:hover{
+	color: #146c72 !important;
+}
 /*Menu*/
 .navbar-brand{
 	font-size: 20px;
@@ -230,6 +239,9 @@ a.coco-color:hover, input.coco-color:hover{
 }
 .contact-data .glyphicon{
 	margin-right: 10px;
+}
+.contact-list a:hover{
+	font-weight: bold;
 }
 /*Smartphone style*/
 @media (max-width: 568px){
@@ -517,7 +529,7 @@ footer a{
 	width: 30px;
 }
 .social-wrapper{
-	margin-top: 180px;
+	margin-top: 150px;
 	margin-bottom: 50px;
 	padding-top: 10px;
 }
@@ -652,6 +664,9 @@ footer li{
 }
 .ins-link:hover{
 	color: #7F44B5;
+}
+.youtube-link:hover{
+	color: #FF0000;
 }
 .footer-invitation{
 	margin: 20px;
