@@ -121,6 +121,13 @@ a.coco-color:hover, input.coco-color:hover{
 	padding-top: 20px;
 	margin-bottom: 80px;
 }
+/* Iphone 5 y menores style*/
+@media (max-width: 568px){
+
+	.home-section h2 {
+		font-size: 40px;
+	}
+}
 .home-section p, nav{
 	font-size: 20px;
 }
@@ -255,6 +262,13 @@ a.coco-color:hover, input.coco-color:hover{
 	}
 
 }
+/* Iphone 5 y menores style*/
+@media (max-width: 568px){
+	.contact-list{
+		font-size: 18px;
+	}
+}
+
 .social-links a{
 	text-decoration: none;
 	margin-right: 10px;
@@ -687,6 +701,11 @@ footer li{
 .big-logo{
 	height: 250px;
 }
+@media (max-width: 568px){
+	.big-logo{
+		height: auto;
+	}
+}
 .title-wrapper{
 	position: absolute;
 	top: 40vh;
@@ -698,6 +717,20 @@ footer li{
 	text-shadow: none !important;
 	letter-spacing: 15px;
 	font-size: 70px !important;
+}
+/*Smartphone style*/
+@media (max-width: 568px){
+	.corvett-title{
+		text-align: center;
+		font-family: 'Francois One', sans-serif;
+		text-shadow: none !important;
+		letter-spacing: inherit;
+		font-size: 78px !important;
+		word-wrap: break-word;
+	}
+	.title-wrapper {
+	    top: 35vh;
+	}
 }
 .navbar-default{
 	background-color: transparent;
