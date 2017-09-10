@@ -1,0 +1,56 @@
+FORMAT: 1A
+
+# loscorvett
+
+Servicio para obtener los próximos eventos de la banda Los Corvett
+
+## Eventos Collection [/eventos]
+
+### List All Shows [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "lugar": "Foro Xicu",
+                "hora": "10:45",
+                "dia": "10",
+                "mes": "Septiembre",
+                "ano": "2017"
+            },
+            {
+                "lugar": "Foro Xicu2",
+                "hora": "10:45",
+                "dia": "10",
+                "mes": "Septiembre",
+                "ano": "2017"
+            },
+            {
+                "lugar": "Foro Xicu3",
+                "hora": "10:45",
+                "dia": "10",
+                "mes": "Septiembre",
+                "ano": "2017"
+            },
+            {
+                "lugar": "Foro Xicu4",
+                "hora": "10:45",
+                "dia": "10",
+                "mes": "Septiembre",
+                "ano": "2017"
+            },
+            {
+                "lugar": "Foro Xicu5",
+                "hora": "10:45",
+                "dia": "10",
+                "mes": "Septiembre",
+                "ano": "2017"
+            },
+            {
+                "lugar": "Foro Xicu6",
+                "hora": "10:45",
+                "dia": "10",
+                "mes": "Septiembre",
+                "ano": "2017"
+            }
+        ]

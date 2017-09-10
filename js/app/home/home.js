@@ -33,10 +33,10 @@
 		}
 	}
 
-	HomeCtrl.$inject = ['$routeParams', '$uibModal'];
+	HomeCtrl.$inject = ['$routeParams', '$uibModal', 'dataservice'];
 
 	/**@ngInject*/
-	function HomeCtrl($routeParams, $uibModal){
+	function HomeCtrl($routeParams, $uibModal, dataservice){
 		var homeCtrl = this;
 
 		//Events
@@ -47,6 +47,9 @@
 
 		function activate(){
 			console.log('Activated HomeCtrl');	
+			dataservice.getEventos().then(function(data){
+				console.log('service result', data);
+			});
 		}
 
 		function showModal(srcImage){
