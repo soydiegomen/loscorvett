@@ -70,9 +70,8 @@ a.coco-color:hover, input.coco-color:hover{
 }
 /*Content*/
 .intro-header{ 
-	background-size: cover;
 	background-color: #242424;
-	background: url(../img/home/los-corvett-home.jpg) repeat center top;	
+	background-image: url(../img/home/los-corvett-home.jpg);	
 	min-height: 500px;
 	color: #fff;
 	text-align: center;
@@ -379,6 +378,12 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*Smartphones*/
+@media (max-width: 568px){
+	.parallax { 
+	    background-attachment: unset;
+	}
+}
 /*image gallery*/
 .modal-dialog.gallery-modal{
 	/*max-width: 650px;*/
@@ -519,7 +524,6 @@ footer a{
 }
 .special-section{
 	background-image: url(../img/home/los-corvett-contacto.jpg);	
-	background-size: cover;
 	color: #FFF;
 }
 .contact-section{
