@@ -39,6 +39,9 @@
 	function HomeCtrl($routeParams, $uibModal, dataservice){
 		var homeCtrl = this;
 
+		//Properties
+		homeCtrl.events = null;
+
 		//Events
 		homeCtrl.showModal = showModal;
 
@@ -47,8 +50,12 @@
 
 		function activate(){
 			console.log('Activated HomeCtrl');	
+			loadEvents();			
+		}
+
+		function loadEvents(){
 			dataservice.getEventos().then(function(data){
-				console.log('service result', data);
+				homeCtrl.events = data;
 			});
 		}
 
