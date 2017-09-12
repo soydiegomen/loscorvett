@@ -42,13 +42,13 @@
           </div>
         </div>
         <!-- end col-3 -->
-        <div class="col-md-3">
+        <!--<div class="col-md-3">
           <div class="miembro-banda">
             <img alt="item" src="img/banda/tona-garcia.png">
             <h3>Tonalzin García</h3>
             <h4>Sax Alto</h4>
           </div>
-        </div>
+        </div>->
         <!-- end col-3 -->
         <div class="col-md-3">
           <div class="miembro-banda">
@@ -71,6 +71,22 @@
             <img alt="item" src="img/banda/gerardo-velazquez.png">
             <h3>Gerardo Velázquez</h3>
             <h4>Trompeta</h4>
+          </div>
+        </div>
+        <!-- end col-3 -->
+        <div class="col-md-3">
+          <div class="miembro-banda">
+            <img alt="item" src="img/banda/misael-martinez.png">
+            <h3>Misael Martínez</h3>
+            <h4>Percusión</h4>
+          </div>
+        </div>
+        <!-- end col-3 -->
+        <div class="col-md-3">
+          <div class="miembro-banda">
+            <img alt="item" src="img/banda/juan-hernandez.png">
+            <h3>Juan José Hernández Arvizu</h3>
+            <h4>Guitarra</h4>
           </div>
         </div>
         <!-- end col-3 -->
@@ -99,98 +115,20 @@
   <h2>PRÓXIMOS EVENTOS</h2>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" ng-repeat="event in homeCtrl.events">
         <div class="show-item">
           <div class="show-date">
-            <h3>17</h3>
-            <span>Agosto 2017</span>
+            <h3 ng-bind="event.dia"></h3>
+            <span ng-bind="event.mes"></span>
+            <span ng-bind="event.ano"></span>
           </div>
           <div class="show-details">
-            <span class="time">19:30</span>
-            <span>
-              Plaza Benito Juarez de San Mateo Atenco
+            <span class="time" ng-bind="event.hora"></span>
+            <span ng-bind="event.lugar">
             </span>
           </div>
         </div>
       </div>
-      <!-- end col show -->
-      <div class="col-md-4">
-        <div class="show-item">
-          <div class="show-date">
-            <h3>17</h3>
-            <span>Agosto 2017</span>
-          </div>
-          <div class="show-details">
-            <span class="time">19:30</span>
-            <span>
-              Foro Xicu
-            </span>
-          </div>
-        </div>
-      </div>
-      <!-- end col show -->
-      <div class="col-md-4">
-        <div class="show-item">
-          <div class="show-date">
-            <h3>17</h3>
-            <span>Agosto 2017</span>
-          </div>
-          <div class="show-details">
-            <span class="time">19:30</span>
-            <span>
-              Plaza Benito Juarez de San Mateo Atenco
-            </span>
-          </div>
-        </div>
-        <!-- end show-item -->
-      </div>
-      <!-- end col show -->
-      <div class="col-md-4">
-        <div class="show-item">
-          <div class="show-date">
-            <h3>17</h3>
-            <span>Agosto 2017</span>
-          </div>
-          <div class="show-details">
-            <span class="time">19:30</span>
-            <span>
-              Plaza Benito Juarez de San Mateo Atenco
-            </span>
-          </div>
-        </div>
-        <!-- end show-item -->
-      </div>
-      <!-- end col show -->
-      <div class="col-md-4">
-        <div class="show-item">
-          <div class="show-date">
-            <h3>17</h3>
-            <span>Agosto 2017</span>
-          </div>
-          <div class="show-details">
-            <span class="time">19:30</span>
-            <span>
-              Plaza Benito Juarez de San Mateo Atenco
-            </span>
-          </div>
-        </div>
-        <!-- end show-item -->
-      </div>
-      <!-- end col show -->
-      <div class="col-md-4">
-        <div class="show-item">
-          <div class="show-date">
-            <h3>17</h3>
-            <span>Agosto 2017</span>
-          </div>
-          <div class="show-details">
-            <span class="time">19:30</span>
-            <span>
-              Plaza Benito Juarez de San Mateo Atenco
-            </span>
-          </div>
-        </div>
-        <!-- end show-item -->
       </div>
       <!-- end col show -->
     </div>
